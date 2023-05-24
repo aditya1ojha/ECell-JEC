@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { HiDocumentArrowDown } from "react-icons/hi2";
@@ -7,7 +7,7 @@ import { HiDocumentArrowDown } from "react-icons/hi2";
 
 const SocialLinks = () => {
 
-    // const [socLink, setSoclink] = useState(false);
+    const [socLink, setSoclink] = useState(false);
 
     const links = [
         {

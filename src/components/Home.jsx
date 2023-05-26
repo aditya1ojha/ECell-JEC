@@ -7,7 +7,7 @@ import ecellVector from '../assets/ecell_vector.png'
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-fuchsia-950' style={{backgroundImage: `url(${ecellVector})`, backgroundSize:'cover'}}> {/*name attribute isn't rquired for react, but is necessary for react smooth scroll*/}
+    <div name="home" className='h-screen w-full' style={{backgroundImage: `url(${ecellVector})`, backgroundSize:'cover'}}> {/*name attribute isn't rquired for react, but is necessary for react smooth scroll*/}
 
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-start h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
@@ -22,7 +22,7 @@ const Home = () => {
                     <Link to='about'
                      smooth
                      duration={500}
-                     className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-black-500 to-blue-500 cursor-pointer'> Who are we?
+                     className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-black via via-gray-800 to-blue-900 cursor-pointer'> Who are we?
                         <span className='group-hover:rotate-90 duration-300'>
                             <MdOutlineKeyboardArrowRight size={25} className='ml-1'/>
                         </span>

@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Carousel from "react-multi-carousel";
+
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 
@@ -48,7 +51,7 @@ const Events = () => {
   return (
     <div
       name="events"
-      className="w-full h-screen bg-gradient-to-b from-fuchsia-950 to-black text-white"
+      className="w-full h-screen bg-gradient-to-b from-blue-900 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="md:pb-8">

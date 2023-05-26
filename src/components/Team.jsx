@@ -1,5 +1,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 import { collection, getDocs, query, orderBy } from "firebase/firestore";
 import { db } from "../firebase";
 
@@ -56,7 +59,7 @@ const Team = () => {
   return (
     <div
       name="team"
-      className="w-full h-screen bg-gradient-to-b from-black to-fuchsia-950 text-white"
+      className="w-full h-screen bg-gradient-to-b from-black to-blue-900 text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="md:pb-8">
@@ -68,7 +71,7 @@ const Team = () => {
         <Carousel responsive={responsive}>
           {members.map(({ id, imgSrc, linkedin, memberName, memberTitle }) => (
             <div key={id} className="flex-col">
-              <img src={imgSrc} alt="team member" className="px-5 py-5"/>
+              <img src={imgSrc} alt="team member" className="px-5 py-5 object-cover h-96 w-96"/>
               <div className="text-center text-2xl text-yellow-200">
                 <h2>{memberName}</h2>
               </div>

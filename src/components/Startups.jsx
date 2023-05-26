@@ -2,7 +2,7 @@ import React from 'react'
 
 const Startups = () => {
   return (
-    <div name="startups" className='w-full h-screen bg-gradient-to-b from-black to-fuchsia-950 text-white'>
+    <div name="startups" className='w-full h-screen bg-gradient-to-b from-black to-blue-900 text-white'>
         
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='md:pb-8'>

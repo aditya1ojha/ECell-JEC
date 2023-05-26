@@ -2,7 +2,7 @@ import React from 'react'
 
 const Incubators = () => {
   return (
-    <div name="incubators" className='w-full h-screen bg-gradient-to-b from-fuchsia-950 to-black text-white'>
+    <div name="incubators" className='w-full h-screen bg-gradient-to-b from-blue-900 to-black text-white'>
         
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='md:pb-8'>

@@ -7,6 +7,7 @@ import Startups from "./components/Startups";
 import Incubators from "./components/Incubators";
 import Contact from "./components/Contact";
 import SocialLinks from "./components/SocialLinks";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Incubators/>
       <Contact/>
       <SocialLinks/>
+      <Footer/>
     </div>
   );
 }

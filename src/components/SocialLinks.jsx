@@ -17,7 +17,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/company/startup-cell-jec/',
             style: 'rounded-tr-md'  
             //specific custom CSS just for the top link
         },
@@ -28,7 +28,7 @@ const SocialLinks = () => {
                     Instagram <FaInstagram size={30}/>
                 </>
             ),
-            href: 'https://instagram.com',
+            href: 'https://www.instagram.com/ecell.jec/',
         },
         {
             id:3,
@@ -37,7 +37,7 @@ const SocialLinks = () => {
                     Mail <HiOutlineMail size={30}/>
                 </>
             ),
-            href: 'mailto:theadityaojha@gmail.com',
+            href: 'mailto:ecelljec1960@gmail.com',
         },
         {
             id:4,
@@ -46,9 +46,9 @@ const SocialLinks = () => {
                     Brochure <HiDocumentArrowDown size={30}/>
                 </>
             ),
-            href: 'resume.pdf',
+            href: '',
             style: 'rounded-br-md', 
-            download:true,
+            download:false,
         },
     ]
 

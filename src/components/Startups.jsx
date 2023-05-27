@@ -10,14 +10,17 @@ const Startups = () => {
             </div>
 
             <p className='flex text-xl mt-20'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam aliquid unde delectus labore incidunt quaerat vitae perferendis sunt numquam architecto quisquam, natus inventore laudantium, modi omnis enim necessitatibus. Consectetur repellendus, possimus, sunt magnam fugit sed amet aliquid numquam aspernatur deleniti neque cum repellat natus hic? Nam dolore quod culpa tempore?
+                We aim to provide a platform for budding entrepreneurs to see their ideas getting the wings to fly and become full fledged startups. As a testament to this goal of ours, we are initiating various programmes, like workshops by resource persons from CSIR-NEIST and Assam Startup and even a Mentor Connect programme in collaboration with Assam Startup. Refer to this database for current teams from JEC.
             </p>
 
             <br/>
 
             <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur at accusantium placeat dolore, officiis earum quos, impedit vel eveniet ab officia. Eos optio voluptatum minus totam facilis sapiente veritatis sed nihil cupiditate ut quod blanditiis nulla, atque culpa rem temporibus eveniet odit cumque pariatur dolore illum magnam animi! Officia, quam.
+                The details of the startups which are currently under us can be found through the following link:
             </p>
+            <a className='text-xl text-yellow-300 underline' href='https://docs.google.com/spreadsheets/d/1WDiioqlo1fwYBxlhcgx4wfjmc6zk032zbecnItDxHU0/edit?usp=sharing'>
+                Startups: E-Cell JEC
+            </a>
         </div>
     </div>
     

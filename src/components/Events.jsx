@@ -14,6 +14,7 @@ const Events = () => {
 
   //fetching the events list
   const fetchEvents = async () => {
+
     await getDocs(collection(db, "events")).then((querySnapshot) => {
       const newData = querySnapshot.docs.map((doc) => ({
         ...doc.data(),
@@ -64,7 +65,7 @@ const Events = () => {
         {events.length !== 0 && (
           <Carousel responsive={responsive}>
             {events.map(({ id, image, title, description, date }) => (
-              <div key={id} className="flex-col">
+              <div key={id} className="flex-col px-8">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <img className="rounded-t-lg" src={image} alt={title} />
                   <div className="p-5">
@@ -81,7 +82,7 @@ const Events = () => {
             ))}
             {events.length === 0 && (
               <p className="text-white py-4 max-w-md text-2xl">
-                No events as of now !
+                No events as of now!
               </p>
             )}
           </Carousel>

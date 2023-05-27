@@ -10,13 +10,13 @@ const About = () => {
             </div>
 
             <p className='flex text-xl mt-20'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam aliquid unde delectus labore incidunt quaerat vitae perferendis sunt numquam architecto quisquam, natus inventore laudantium, modi omnis enim necessitatibus. Consectetur repellendus, possimus, sunt magnam fugit sed amet aliquid numquam aspernatur deleniti neque cum repellat natus hic? Nam dolore quod culpa tempore?
+                The Entrepreneurship Cell (E-Cell) of Jorhat Engineering College serves as a platform for students on campus who have startup aspirations. Its primary goal is to educate students on approaching investors and provide guidance and mentorship through connections with successful alumni who have startup experience. The E-Cell's mission is to foster and accelerate the startup ecosystem within the college by acting as a facilitator between ideas and execution. 
             </p>
 
             <br/>
 
             <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur at accusantium placeat dolore, officiis earum quos, impedit vel eveniet ab officia. Eos optio voluptatum minus totam facilis sapiente veritatis sed nihil cupiditate ut quod blanditiis nulla, atque culpa rem temporibus eveniet odit cumque pariatur dolore illum magnam animi! Officia, quam.
+                It aims at encouraging and supporting students in participating in business plan competitions and other startup-related events, providing them with necessary tools and resources. Additionally, the E-Cell focuses on networking with entrepreneurs and collaborating with other institutes' startups or entrepreneurship cells to assist students from their own college.
             </p>
         </div>
     </div>

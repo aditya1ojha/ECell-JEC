@@ -46,7 +46,7 @@ const Team = () => {
         id: doc.id,
       }));
       setMembers(newData);
-      console.log(members, newData);
+      ///console.log(members, newData);
     });
   };
 
@@ -72,17 +72,17 @@ const Team = () => {
           {members.map(({ id, imgSrc, linkedin, memberName, memberTitle }) => (
             <div key={id} className="flex-col">
               <img src={imgSrc} alt="team member" className="px-5 py-5 object-cover h-96 w-96"/>
-              <div className="text-center text-2xl text-yellow-200">
+              <div className="text-center text-2xl text-white">
                 <h2>{memberName}</h2>
               </div>
-              <div className="text-center text-lg text-gray-200 py-3">
+              <div className="text-center text-lg text-yellow-300 py-3">
                 <p>{memberTitle}</p>
               </div>
 
-              <div className="text-center text-gray-500">
+              <div className="text-center text-gray-100">
                 <a href={linkedin}>
                   <button>
-                    <FaLinkedin size={25} />
+                    <FaLinkedin size={20} />
                   </button>
                 </a>
               </div>

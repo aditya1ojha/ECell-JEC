@@ -10,14 +10,9 @@ const Incubators = () => {
             </div>
 
             <p className='flex text-xl mt-20'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam aliquid unde delectus labore incidunt quaerat vitae perferendis sunt numquam architecto quisquam, natus inventore laudantium, modi omnis enim necessitatibus. Consectetur repellendus, possimus, sunt magnam fugit sed amet aliquid numquam aspernatur deleniti neque cum repellat natus hic? Nam dolore quod culpa tempore?
+                An incubation centre will be coming up in our college in the next few months as a result of renewed collaboration with Assam Startup. Once readied, the students will be able to take advantage of a dedicated space for giving the right push to their ideas.
             </p>
-
-            <br/>
-
-            <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur at accusantium placeat dolore, officiis earum quos, impedit vel eveniet ab officia. Eos optio voluptatum minus totam facilis sapiente veritatis sed nihil cupiditate ut quod blanditiis nulla, atque culpa rem temporibus eveniet odit cumque pariatur dolore illum magnam animi! Officia, quam.
-            </p>
+            
         </div>
     </div>
     

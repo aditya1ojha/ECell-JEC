@@ -68,7 +68,7 @@ const Team = () => {
           </p>
         </div>
 
-        <Carousel responsive={responsive}>
+        {members.length !==0 && (<Carousel responsive={responsive}>
           {members.map(({ id, imgSrc, linkedin, memberName, memberTitle }) => (
             <div key={id} className="flex-col">
               <img src={imgSrc} alt="team member" className="px-5 py-5 object-cover h-96 w-96"/>
@@ -88,7 +88,7 @@ const Team = () => {
               </div>
             </div>
           ))}
-        </Carousel>
+        </Carousel>)}
       </div>
     </div>
   );

@@ -45,7 +45,7 @@ const NavBar = () => {
   return (
 
     // main navbar
-    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
+    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-10'>
 
         <div>
             <img src= {jecLogo} alt='jecLogo' className='w-12'></img>
@@ -72,7 +72,7 @@ const NavBar = () => {
 
 
         {nav && (
-            <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-fuchsia-950 text-gray-500'>
+            <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-blue-900 text-gray-500 z-10'>
             {links.map(({id, link}) => ( 
                     <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
                         <Link onClick={() => setNav(!nav)} 

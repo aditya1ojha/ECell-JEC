@@ -80,7 +80,7 @@ const Team = () => {
               </div>
 
               <div className="text-center text-gray-100">
-                <a href={linkedin}>
+                <a href={linkedin} target="_blank" rel="noreferrer">
                   <button>
                     <FaLinkedin size={20} />
                   </button>

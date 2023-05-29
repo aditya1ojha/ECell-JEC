@@ -39,7 +39,7 @@ const Team = () => {
     
     const fetched_teams = collection(db, "team");
     
-    const ordered_teams = query(fetched_teams, orderBy("memberTitle", "asc") );
+    const ordered_teams = query(fetched_teams, orderBy("priority", "asc") );
     await getDocs(ordered_teams).then((querySnapshot) => {
       const newData = querySnapshot.docs.map((doc) => ({
         ...doc.data(),
